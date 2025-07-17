@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import json
 """
 this module converts Json string into puthon.
 """
+
+
+import json
 
 
 def from_json_string(my_str):
