@@ -4,6 +4,7 @@ this module opens a JSON file, deserializes its contents,
 and returns the corresponding Python object.
 """
 
+
 import json
 
 def load_from_json_file(filename):
