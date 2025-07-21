@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# Fempty Class
+"""
+Fempty Class
+"""
 
 
 class Rectangle:
