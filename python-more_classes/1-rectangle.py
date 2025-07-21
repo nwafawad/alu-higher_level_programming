@@ -5,6 +5,10 @@ Define a rectangle clas with width and height properties
 
 
 class Rectangle:
+    """
+    This class provides methods to safely get and set
+    width and hight valuse.
+    """
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
