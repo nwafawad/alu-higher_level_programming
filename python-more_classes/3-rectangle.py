@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """
+Module
 this module defines a class with width
 and hight attributes, and calculate area
 and permiter.
@@ -34,9 +35,9 @@ class Rectangle:
         """Getter for height."""
         return self.__height
 
-     @height.setter
-     def height(self, value):
-         if not isinstance(value, int):
+    @height.setter
+    def height(self, value):
+        if not isinstance(value, int):
             raise TypeError("height must be an integer")
 
         if value < 0:
