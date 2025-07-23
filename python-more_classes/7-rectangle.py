@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-this module Defines a Rectangle class that 
+this module Defines a Rectangle class that
 tracks instance count, supports flexible
 symbol printing, and includes geometric calculations.
 """
