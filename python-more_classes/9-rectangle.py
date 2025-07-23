@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-this module defines a Rectangle class with functionalities, including area/perimeter
-methods, string representation, instance tracking, comparison, and a factory
+this module defines a Rectangle class with functionalities,
+including area/perimeter methods, string representation,
+instance tracking, comparison, and a factory
 method to create square rectangles.
 """
 
