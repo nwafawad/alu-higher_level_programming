@@ -5,7 +5,11 @@ and hight attributes, and calculate area
 and permiter.
 """
 
+
 class Rectangle:
+    """
+    contains a rectangle with a width and hight
+    """
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
