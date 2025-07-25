@@ -5,4 +5,5 @@ defines empty class VaseGeometry
 
 
 class BaseGeometry:
+    """empty class"""
     pass
