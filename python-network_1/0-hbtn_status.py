@@ -3,7 +3,6 @@
 - fetches https://alu-intranet.hbtn.io/status.
 - uses urlib package
 """
-
 import urllib.request
 
 
