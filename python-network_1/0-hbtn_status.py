@@ -3,8 +3,8 @@
 - fetches https://alu-intranet.hbtn.io/status.
 - uses urlib package
 """
-import urllib.request
 
+import urllib.request
 
 
 url = 'https://intranet.hbtn.io/status'
