@@ -1,0 +1,15 @@
+"""
+>>> text_indentation("Hello. How are you? I'm fine:")
+Hello
+
+How are you
+
+I'm fine
+
+>>> text_indentation("   This is weird? Yes: Very weird.")
+This is weird
+
+Yes
+
+Very weird
+"""
