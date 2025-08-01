@@ -4,6 +4,8 @@
 
 def add_integer(a, b=98):
     """Return the integer addition of a and b.
+    Float arguments are typecasted to ints before addition is performed.
+    Second integer has a default value of 98 if value is not specified
     Raises:
         TypeError: If either of a or b is a non-integer and non-float.
     """
