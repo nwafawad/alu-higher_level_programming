@@ -11,7 +11,10 @@ request(apiUrl, (error, response, body) => {
     let count = 0;
 
     data.results.forEach((film) => {
-      if (film.characters.includes('https://swapi-api.alx-tools.com/api/people/18/')) {
+      const hasWedge = film.characters.some((characterUrl) => {
+        return characterUrl.includes('/people/18/');
+      });
+      if (hasWedge) {
         count++;
       }
     });
